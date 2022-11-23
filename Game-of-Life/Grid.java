@@ -7,7 +7,7 @@ public class Grid {
   private static String[][] grid = new String[rowCount][columnCount];
 
   public Grid(String file) throws IOException {
-    grid = FileRead.read("Input.txt");
+    grid = FileRead.read(file);
     PrintGrid();
   }
 

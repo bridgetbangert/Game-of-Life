@@ -2,6 +2,6 @@ import java.io.IOException;
 
 public class Main {
 	public static void main(String[] args) throws IOException {
-		new Game("Input.txt", 100);
+		new Game("/Users/bridgetbangert/Desktop/Game-of-Life/Game-of-Life/Input.txt", 100);
 	}
 }

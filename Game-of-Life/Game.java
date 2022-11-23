@@ -10,8 +10,4 @@ public class Game {
             g.Generations();
         }
     }
-
-    public void Display() {
-        g.PrintGrid();
-    }
 }
